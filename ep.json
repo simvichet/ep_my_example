@@ -1,0 +1,10 @@
+{
+  "parts": [
+    {
+      "name": "apples",
+      "hooks": {
+        "expressCreateServer": "ep_my_example/apples:expressCreateServer"
+      }
+    }
+  ]
+}
